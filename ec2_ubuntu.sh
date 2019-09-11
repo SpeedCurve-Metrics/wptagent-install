@@ -55,6 +55,7 @@ chmod +x ~/startup.sh
 echo '#!/bin/sh' > ~/firstrun.sh
 echo 'cd ~' >> ~/firstrun.sh
 echo 'rm ~/first.run' >> ~/firstrun.sh
+echo 'sudo reboot' >> ~/firstrun.sh
 chmod +x ~/firstrun.sh
 
 # build the agent script
